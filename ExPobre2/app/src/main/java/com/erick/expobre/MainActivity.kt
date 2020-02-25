@@ -2,6 +2,7 @@ package com.erick.expobre
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -17,31 +18,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btRandon = findViewById<Button>(R.id.btRandom)
-
+        this.btRandon = findViewById(R.id.btRandom)
         this.tvNumeros = findViewById(R.id.tvNumeros)
-        this.tvNumeros.text = this.megasena().toString()
 
-        this.btRandon.setOnClickListener() {
-            Toast.makeText(this, "button clicked", Toast.LENGTH_LONG).show();
-            onClickSortear()
-        }
+
+        this.tvNumeros.text = Megasena.getInstance().joinToString( " " )
+        this.btRandon.setOnClickListener(OnClickBotao())
     }
 
-    fun megasena(): List<Int> {
-        var lista = mutableSetOf<Int>()
-        var random = Random
-
-        while (lista.size < 6){
-            lista.add(random.nextInt(60)+1)
+    inner class OnClickBotao : View.OnClickListener{
+        override fun onClick(v: View?) {
+            this@MainActivity.tvNumeros.text = Megasena.getInstance().joinToString( " " )
         }
-        return lista.toList()
-    }
 
-
-    fun onClickSortear() {
-        this.tvNumeros = findViewById(R.id.tvNumeros)
-        this.tvNumeros.text = this.megasena().toString()
     }
 }
 
