@@ -16,8 +16,8 @@
         android:layout_weight="1"
         android:gravity="center"
         >
-
         <ImageView
+
             android:id="@+id/ivSobreImg"
             android:layout_width="200dp"
             android:layout_height="200dp"
