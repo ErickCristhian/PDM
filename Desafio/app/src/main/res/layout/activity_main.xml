@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvInfo01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12sp"
+        android:text="O numero é divisivel por"
+        android:textSize="20sp"
+        android:padding="10sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvInfo02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12sp"
+        android:text="O número é "
+        android:padding="10sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvInfo03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:text="Quantidade de divisores desse número"
+        android:padding="10sp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="30dp"
+        android:height="50dp"
+        android:textSize="20sp"
+        android:text="Escolha um número(1 a 100): "
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/etChute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btChutar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Chutar"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="30dp"
+        android:height="50dp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="30dp"
+        android:height="50dp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText"
+        android:text="Criado por: @ErickCristhian"
+        />
+
+</LinearLayout>
