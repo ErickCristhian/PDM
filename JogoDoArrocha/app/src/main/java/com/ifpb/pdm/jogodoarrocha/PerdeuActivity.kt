@@ -3,7 +3,7 @@ package com.example.jogodoarrocha
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import com.ifpb.pdm.jogodoarrocha.R
+
 
 class PerdeuActivity : AppCompatActivity() {
     private lateinit var tvResultado: TextView

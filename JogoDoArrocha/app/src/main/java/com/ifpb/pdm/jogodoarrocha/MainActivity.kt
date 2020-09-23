@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.SeekBar
 import android.widget.TextView
-import com.ifpb.pdm.jogodoarrocha.R
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var tvIntervalo: TextView
