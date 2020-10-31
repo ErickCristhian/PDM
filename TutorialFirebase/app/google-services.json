@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "910383677418",
+    "firebase_url": "https://my-app-fgh.firebaseio.com",
+    "project_id": "my-app-fgh",
+    "storage_bucket": "my-app-fgh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910383677418:android:1cf2b04c07dca1cdc27c93",
+        "android_client_info": {
+          "package_name": "com.ifpb.pdm.tutorialfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910383677418-cfhh9ksf2d29ria04l6a45r4rc9ujimm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIcyv4aK0t9CtMwGU6_2gjlihwc38N54s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910383677418-cfhh9ksf2d29ria04l6a45r4rc9ujimm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
